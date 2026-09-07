@@ -1,3 +1,13 @@
-# Runs automatically every time the Streamlit app starts.
-# Reads the committed JSON snapshots and builds a fresh SQLite database (project.db)[cite: 1].
-# STATUS: DERIVED data. project.db MUST be in .gitignore[cite: 1].
+"""
+# ==========================================
+# FILE: src/build_db.py
+# ==========================================
+# SPRINT 1 (Data Pipeline)
+# Assignee: Wyatt
+# - Parse the JSON snapshots into a local SQLite database (project.db).
+# - Dynamically drop and create tables for conferences, teams, and standings every time it runs.
+# - Ensure project.db remains in .gitignore (DERIVED data).
+#
+# SPRINT 2 & 3 (Dashboard & AI Layer)
+# - No major updates; executes seamlessly on Streamlit app startup.
+"""

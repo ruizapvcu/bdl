@@ -1,4 +1,13 @@
-# Runs on a GitHub Actions schedule.
-# Fetches live NCAAF data from the balldontlie endpoints (conferences, teams, standings)[cite: 2].
-# Writes output to a dated snapshot (e.g., data/2026-09-10.json).
-# STATUS: SOURCE data. Must be committed to git[cite: 1].
+"""
+# ==========================================
+# FILE: src/fetch.py
+# ==========================================
+# SPRINT 1 (Data Pipeline)
+# Assignees: Krish, Aaron, Robiel
+# - Write the core fetching logic to pull 'conferences', 'teams', and 'standings' from the balldontlie API.
+# - Combine and save the payload as an uncompressed, sorted JSON snapshot (e.g., data/YYYY-MM-DD.json).
+# - Implement error handling for standard HTTP issues.
+#
+# SPRINT 2 & 3 (Dashboard & AI Layer)
+# - Maintained passively as it runs automatically via GitHub Actions.
+"""

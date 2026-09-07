@@ -1,3 +1,13 @@
-# Houses all SQLite database logic.
-# Contains functions to query and JOIN the tables (e.g., matching teams to their conference standings)[cite: 1, 2].
-# Keeps the frontend clean of raw SQL.
+"""
+# ==========================================
+# FILE: src/analyze.py
+# ==========================================
+# SPRINT 1 (Data Pipeline)
+# Assignee: Wyatt
+# - Write the initial SQL queries to join 'teams' and 'standings' on 'conference_id'.
+#
+# SPRINT 2 (Dashboard)
+# Assignee: Wyatt
+# - Expand functions to return formatted pandas DataFrames.
+# - Enable the Streamlit frontend to build charts/tables without writing raw SQL.
+"""

@@ -1,5 +1,18 @@
-# The Streamlit frontend and the only program running live during the showcase[cite: 1].
-# 1. Calls build_db.py at startup to load the latest snapshot[cite: 1].
-# 2. Uses analyze.py to display tables and multi-month trend charts of FBS records[cite: 1].
-# 3. Reads and displays data/summary.md[cite: 1].
-# 4. Hosts the live LLM chat interface strictly for answering user questions[cite: 1].
+"""
+# ==========================================
+# FILE: src/app.py
+# ==========================================
+# SPRINT 2 (Dashboard & Automation)
+# Assignees: Aaron, Krish, Robiel
+# - Build the initial Streamlit interface.
+# - Trigger build_db.py at startup to load the latest JSON snapshot.
+# - Implement a dropdown to filter teams by FBS conference.
+# - Display record tables and visualize multi-month standings trends using analyze.py.
+#
+# SPRINT 3 (AI Layer)
+# Assignees: Aaron, Robiel
+# - Integrate the AI components.
+# - Read and render the data/summary.md file on the dashboard.
+# - Add st.chat_input and st.chat_message elements to host the live chatbot.
+# - Pass local SQLite context to the LLM to prevent hallucinations.
+"""
